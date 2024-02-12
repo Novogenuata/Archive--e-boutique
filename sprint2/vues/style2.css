@@ -1,0 +1,52 @@
+:root {
+	--header_AND_footer: rgba(69, 45, 121, 1);
+    --body: rgba(127, 126, 168, 0.9);
+    --logoColor: #0066CC;
+}
+.body_global_categorie{
+    background-color: var(--body);
+    display: grid;
+    grid-template-rows: 150px 800px 250px;
+    height: auto;
+}
+.header_global_categorie{
+    background-color: var(--header_AND_footer);
+}
+.footer_global_categorie{
+    background-color: var(--header_AND_footer);
+}
+.body_categorie{
+    background-color: black;
+}
+.main_container_categorie{
+    background-color: var(--header_AND_footer);
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 800px;
+    column-gap: 5px;
+}
+.container_menu_categorie{
+    background-color: var(--logoColor);
+    max-width: 200px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.container_contenu_categorie{
+    background-color: var(--body);
+    border-radius: 15px;
+}
+
+.titre_header_categorie{
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+}
+.container_header_categorie{
+    display: grid;
+    background-color: var(--header_AND_footer);
+    grid-template-columns: 300px auto 400px;
+    padding: 5px;
+    
+}
+.affichage_livres{
+    
+}

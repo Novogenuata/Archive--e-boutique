@@ -1,0 +1,146 @@
+/* --------- Gestion des couleurs (ne pas modifier cette section) ----------- */
+:root {
+	--header_AND_footer: rgba(69, 45, 121, 1);
+    --body: rgba(127, 126, 168, 0.9);
+}
+
+footer{
+    background-color:var(--header_AND_footer) ;
+}
+header{
+    background-color:var(--header_AND_footer) ;
+}
+.bodyAccueil{
+	background-color: var(--body);
+
+}
+/*****************header*****************************/
+
+/*************************Footer***************************************/
+.le_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.le_footer > div {
+    margin: 10px; 
+}
+.gap{
+    column-gap: 5px;
+}
+.map{
+    margin: 10px;
+}
+.propos_du_magasin_FAQ{
+    color: white;
+    font-size: 16px;
+}
+
+a{
+    color: white; 
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover {   /*color white*/
+    color: white; 
+    
+}
+a.special-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a.special-link:hover {
+    color: white;
+}
+
+a.special-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid white;
+}
+
+a:visited {
+    color:white;
+}
+
+a:active {
+    color:white;
+}
+/*------------------accueil--------------------------*********************/
+.main_container{
+    display: grid;
+    grid-template-columns: 200px auto;
+    height: auto;
+}
+.container_menu{
+    background-color: yellow;
+}
+.container_contenu{
+    background-color: red;
+}
+
+
+
+/* -------------------connection--------------------------***************/
+
+/* -------------------creationCompte--------------------------***********/
+
+
+/* -------------------propos--------------------------**********************/
+body{
+    background-color: beige;
+    display: grid;
+    grid-template-rows:  150px 600px 150px;
+}
+
+.bodyMain{
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bodyMain > div{
+    width: 500px;
+    height: 200px;
+    border: 10px solid black;
+}
+
+.boite1-1 {
+    background-color: #99CCFF}
+.boite1-2 {
+    background-color: #66B2FF;
+}
+
+.boite2-1 {
+    background-color: #FFCC99;
+}
+
+.boite2-2 {
+    background-color: #FFB266;
+
+}
+
+.boite3-1 {
+    background-color: #FF9999;
+
+}
+
+.boite3-2 {
+    background-color: #FF6666;
+
+}
+
+.boite4-1 {
+    background-color: #99FF99;
+}
+
+.boite4-2 {
+    background-color: #66FF66;
+}
+

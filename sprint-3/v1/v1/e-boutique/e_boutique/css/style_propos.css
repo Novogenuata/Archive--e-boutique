@@ -1,0 +1,148 @@
+/* --------- Gestion des couleurs (ne pas modifier cette section) ----------- */
+:root {
+	--header_AND_footer: rgba(69, 45, 121, 1);
+    --body: rgba(127, 126, 168, 0.9);
+    --logoColor: #0066CC;
+}
+
+footer{
+    background-color:rgba(69, 45, 121, 1) ;
+}
+header{
+    background-color:rgba(69, 45, 121, 1) ;
+    
+}
+main{
+	background-color: rgba(127, 126, 168, 0.9);
+
+}
+/*****************header*****************************/
+.container_header{
+    display: grid;
+    background-color: var(--header_AND_footer);
+    grid-template-columns: 300px auto 400px;
+    padding: 5px;
+    
+
+}
+.titre_header{
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+}
+nav{
+    background-color: #0066CC;
+    max-height: 600px;
+    border-radius: 5px;
+}
+/*************************Footer***************************************/
+
+.container_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+.le_footer > div {
+    margin: 10px; 
+}
+.gap{
+    column-gap: 5px;
+}
+.map{
+    margin: 10px;
+}
+.propos_du_magasin_FAQ{
+    color: white;
+    font-size: 16px;
+}
+
+a{
+    color: white; 
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover {   /*color white*/
+    color: white; 
+    
+}
+a.special-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a.special-link:hover {
+    color: white;
+}
+
+a.special-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid white;
+}
+
+a:visited {
+    color:white;
+}
+
+a:active {
+    color:white;
+}
+.logos_socials{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.barre_cart{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+/*------------------accueil--------------------------*********************/
+
+/* -------------------connection--------------------------***************/
+
+/* -------------------creationCompte--------------------------***********/
+
+
+/* -------------------propos--------------------------**********************/
+body{
+    background-color: beige;
+    display: grid;
+    grid-template-rows:  150px 800px 250px;
+}
+.bodyMain{
+    background-color: rgba(127, 126, 168, 0.9);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.bodyMain > div{
+    width: 500px;
+    height: 200px;
+    border: 10px solid #CCFFCC;
+}
+.section-title {
+    text-align: center; 
+    margin: 0 auto; 
+    width: 60%; 
+    padding: 20px; 
+    border-radius: 10px;
+    margin-bottom: 20px; 
+}
+#reference a {
+    font-style: italic;
+    text-decoration: underline;
+    display: block; 
+}
+
